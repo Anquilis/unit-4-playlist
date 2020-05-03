@@ -1,0 +1,78 @@
+body{
+  background: linear-gradient(to right, #283c86, #45a247);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#albumPicture{
+  margin-top: 50px;
+  margin-left: 65px;
+  margin-bottom: 30px;
+}
+
+header{
+  display: flex;
+
+}
+
+h1{
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#desc{
+  margin-top:10px;
+  margin-bottom: 0px;  
+}
+
+#metadata{margin-top:10px;}
+
+#playlistDesc p {
+  font-size: 16px;
+}
+
+h6{
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#playlist{
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+#username{
+  text-decoration: underline;
+  color: white;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+input{width: 150px;}
+
+.rows{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.column{
+  display:flex;
+  align-items: column;
+}
+
+p, a {
+  font-size: 16px;
+}
+
+img {
+  width: 200px;
+}
+
+li{
+ list-style-type: none; 
+}
